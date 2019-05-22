@@ -29,11 +29,9 @@ $ yarn dev
 
 ## JSON Server Resources Endpoints
 
-- Comments: `/comments/:id?`
-- Posts: `/posts/:id?`
-- Terms: `/terms/:id?`
-- Users: `/users/:id?`
-- Options: `/options/:id?`
+- Slides: `/slides/:id?`
+- Categories: `/categories/:id?`
+- Shops: `/shops/:id?`
 
 To access and modify resources, you can use any HTTP method: `GET` `POST` `PUT` `PATCH` `DELETE` `OPTIONS`
 
@@ -47,9 +45,13 @@ add a delay of 1000ms for each endpoint
 $ curl http://localhost:3000/backdoor/delay
 ```
 
+## Related
+
+- [zce/dashboard-server](https://github.com/zce/dashboard-server) - A JSON file RESTful API with JWT authorization based on json-server for [zce/dashboard](https://github.com/zce/dashboard)
+
 ## License
 
-[MIT](LICENSE) &copy; [汪磊](http://zce.me)
+[MIT](LICENSE) &copy; [汪磊](https://zce.me)
 
 
 
