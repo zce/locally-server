@@ -1,6 +1,11 @@
 {
   "name": "locally-server",
   "version": 2,
+  "alias": [
+    "locally",
+    "locally-server",
+    "locally-api.uieee.com"
+  ],
   "builds": [
     { "src": "public/index.html", "use": "@now/static" },
     { "src": "lib/index.js", "use": "@now/node" }
