@@ -4,6 +4,7 @@
   "alias": [
     "locally",
     "locally-server",
+    "locally.uieee.com",
     "locally-api.uieee.com"
   ],
   "builds": [
