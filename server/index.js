@@ -12,6 +12,8 @@ const router = jsonServer.router(config.db)
 // Common middlewares
 server.use(jsonServer.defaults({ readOnly: true }))
 server.use(jsonServer.bodyParser)
+
+// Delay
 server.use((req, res, next) => {
   // enable?
   if (!config.enableDelay) return next()
